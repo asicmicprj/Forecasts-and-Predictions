@@ -1,78 +1,31 @@
 # Forecasts-and-Predictions
-This project is a part of the [Data Science Working Group](http://datascience.codeforsanfrancisco.org) at [Code for San Francisco](http://www.codeforsanfrancisco.org).  Other DSWG projects can be found at the [main GitHub repo](https://github.com/sfbrigade/data-science-wg).
+This project is a part of the [Data Analyst Course](https://practicum.yandex.com/profile/data-analyst/).
 
 #### -- Project Status: [Completed]
 
 ## Project Intro/Objective
-The purpose of this project is ________. (Describe the main goals of the project and potential civic impact. Limit to a short paragraph, 3-6 Sentences)
-
-### Partner
-* [Name of Partner organization/Government department etc..]
-* Website for partner
-* Partner contact: [Name of Contact], [slack handle of contact if any]
-* If you do not have a partner leave this section out
+The purpose of this project is education project. 
+Main goals of project:
+* Learn to predict the probability of churn (for the upcoming month) for each customer
+* Draw up typical user portraits: select the most outstanding groups and describe their main features
+* Analyze the factors that impact churn most
+* Draw basic conclusions and develop recommendations on how to improve customer service:
+* Identify target groups
+* Suggest measures to cut churn
+* Describe any other patterns you see with respect to interaction with customers
 
 ### Methods Used
-* Inferential Statistics
-* Machine Learning
 * Data Visualization
-* Predictive Modeling
-* etc.
+* Predicting and Forecast Modeling
 
 ### Technologies
-* R 
 * Python
-* D3
-* PostGres, MySql
-* Pandas, jupyter
-* HTML
-* JavaScript
-* etc. 
+* Pandas, matplotlib, sklearn
+* Jupyter Notebook
 
 ## Project Description
-(Provide more detailed overview of the project.  Talk a bit about your data sources and what questions and hypothesis you are exploring. What specific data analysis/visualization and modelling work are you using to solve the problem? What blockers and challenges are you facing?  Feel free to number or bullet point things here)
-
-## Needs of this project
-
-- frontend developers
-- data exploration/descriptive statistics
-- data processing/cleaning
-- statistical modeling
-- writeup/reporting
-- etc. (be as specific as possible)
-
-## Getting Started
-
-1. Clone this repo (for help see this [tutorial](https://help.github.com/articles/cloning-a-repository/)).
-2. Raw Data is being kept [here](Repo folder containing raw data) within this repo.
-
-    *If using offline data mention that and how they may obtain the data from the froup)*
-    
-3. Data processing/transformation scripts are being kept [here](Repo folder containing data processing scripts/notebooks)
-4. etc...
-
-*If your project is well underway and setup is fairly complicated (ie. requires installation of many packages) create another "setup.md" file and link to it here*  
-
-5. Follow setup [instructions](Link to file)
-
-## Featured Notebooks/Analysis/Deliverables
-* [Notebook/Markdown/Slide Deck Title](link)
-* [Notebook/Markdown/Slide DeckTitle](link)
-* [Blog Post](link)
-
-
-## Contributing DSWG Members
-
-**Team Leads (Contacts) : [Full Name](https://github.com/[github handle])(@slackHandle)**
-
-#### Other Members:
-
-|Name     |  Slack Handle   | 
-|---------|-----------------|
-|[Full Name](https://github.com/[github handle])| @johnDoe        |
-|[Full Name](https://github.com/[github handle]) |     @janeDoe    |
-
-## Contact
-* If you haven't joined the SF Brigade Slack, [you can do that here](http://c4sf.me/slack).  
-* Our slack channel is `#datasci-projectname`
-* Feel free to contact team leads with any questions or if you are interested in contributing!
+The gym chain Model Fitness is developing a customer interaction strategy based on analytical data.
+One of the most common problems gyms and other services face is customer churn. How do you know if a customer is no longer with you? You can calculate churn based on people who get rid of their accounts or don't renew their contracts. However, sometimes it's not obvious that a client has left: they may walk out on tiptoes.
+Churn indicators vary from field to field. If a user buys from an online store rarely but regularly, you can't say they're a runaway. But if for two weeks they haven't opened a channel that's updated daily, that's a reason to worry: your follower might have gotten bored and left you.
+For a gym, it makes sense to say a customer has left if they don't come for a month. Of course, it's possible they're in Cancun and will resume their visits when they return, but's that's not a typical case. Usually, if a customer joins, comes a few times, then disappears, they're unlikely to come back.
+In order to fight churn, Model Fitness has digitized a number of its customer profiles. Your task is to analyze them and come up with a customer retention strategy.
